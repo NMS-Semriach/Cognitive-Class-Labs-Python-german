@@ -1,0 +1,239 @@
+0
+00:00:00,930 --> 00:00:06,910
+Wir wollen Sets betrachten; sie sind auch eine Art von Sammlung.
+
+1
+00:00:06,910 --> 00:00:11,021
+Sets sind eine Art von Sammlung. Das bedeutet, dass Sie
+
+2
+00:00:11,021 --> 00:00:17,650
+wie Listen und Tupel verschiedene Pythontypen beinhalten können. Im Gegensatz zu Listen und Tupeln sind sie ungeordnet.
+
+3
+00:00:17,650 --> 00:00:23,790
+Dies bedeutet, dass Sets keine Elementposition kennen. Sets haben nur eindeutige Elemente.
+
+4
+00:00:23,790 --> 00:00:27,970
+Dh dass jedes Element in einem Set nur einmal vorkommen kann.
+
+5
+00:00:27,970 --> 00:00:32,940
+Um ein Set zu definieren, verwendet man geschweifte Klammern und platziert die Elemente eines Sets
+
+6
+00:00:32,940 --> 00:00:37,190
+innerhalb der geschweiften Klammern. Wie Sie sehen gibt es doppelte Einträge.
+
+7
+00:00:37,190 --> 00:00:42,840
+Wenn das eigentliche Set erstellt wird, sind keine doppelten Elemente vorhanden.
+
+8
+00:00:42,840 --> 00:00:48,800
+Mit der Funktion Set können Sie eine Liste in ein Set umwandeln; dies nennt man Typ-Casting.
+
+9
+00:00:48,800 --> 00:00:52,420
+Sie verwenden die Liste einfach als Eingabe für die Funktion Set.
+
+10
+00:00:52,420 --> 00:00:58,180
+Das Ergebnis ist eine in ein Set konvertierte Liste. Gehen wir ein Beispiel durch
+
+11
+00:00:58,180 --> 00:01:03,000
+Wir beginnen mit einer Liste. Wir übergeben die Liste an die Funktion Set.
+
+12
+00:01:03,000 --> 00:01:08,409
+Die Funktion set liefert ein Set zurück. Beachten Sie, dass es keine doppelten Elemente gibt.
+
+13
+00:01:08,409 --> 00:01:14,590
+Gehen wir die Set-Operationen durch; sie können verwendet werden, um das Set zu ändern.
+
+14
+00:01:14,590 --> 00:01:19,340
+Betrachten Sie das Set "A". Wir stellen das Set mit einem Kreis dar.
+
+15
+00:01:19,340 --> 00:01:23,520
+Wenn Sie mit Sets vertraut sind: sehen sie es als Teil eines Venn-Diagramms.
+
+16
+00:01:23,520 --> 00:01:29,150
+Ein Venn-Diagramm ist ein Werkzeug, um Mengen darzustellen.
+
+17
+00:01:29,150 --> 00:01:32,730
+Mit der Add-Methode können wir ein Element zu einem Set hinzufügen.
+
+18
+00:01:32,730 --> 00:01:38,010
+Wir setzen einfach den Namen des Sets gefolgt von einem Punkt, dann die Add-Methode.
+
+19
+00:01:38,010 --> 00:01:44,040
+Das Argument ist das neue Element der Menge, das wir hinzufügen möchten, in diesem Fall "NSYNC".
+
+20
+00:01:44,040 --> 00:01:50,670
+Das Set "A" hat jetzt "NSYNC" als Element. Wenn wir das gleiche Element zweimal hinzufügen,
+
+21
+00:01:50,670 --> 00:01:53,500
+passiert nichts, da es keine Duplikate in einem Set geben kann.
+
+22
+00:01:53,500 --> 00:01:58,460
+Nehmen wir an, wir möchten NSYNC aus Set A entfernen.
+
+23
+00:01:58,460 --> 00:02:02,550
+Wir können auch ein Element aus einem Set mit der remove-Methode entfernen.
+
+24
+00:02:02,550 --> 00:02:07,300
+Wir setzen einfach den Namen des Sets, gefolgt von einem Punkt, dann die Methode remove.
+
+25
+00:02:07,300 --> 00:02:12,919
+Das Argument ist das Element des Sets, das wir entfernen möchten, in diesem Fall "NSYNC".
+
+26
+00:02:12,919 --> 00:02:17,590
+Nachdem die Methode remove auf das Set angewendet wurde, enthält "A" das Element
+
+27
+00:02:17,590 --> 00:02:21,170
+"NSYNC“ nicht mehr. Sie können diese Methode für jedes Element im Set verwenden.
+
+28
+00:02:21,170 --> 00:02:24,939
+Wir können überprüfen, ob ein Element im Set ist,
+
+29
+00:02:24,939 --> 00:02:30,189
+indem wir den "in"-Befehl wie folgt verwenden. Der Befehl prüft, ob das Element, in diesem Fall
+
+30
+00:02:30,189 --> 00:02:36,909
+"AC/DC", im Set enthalten ist. Wenn das Element im Set enthalten ist, wird „True" zurückgegeben.
+
+31
+00:02:36,909 --> 00:02:42,280
+Wenn wir nach einem Element suchen, das nicht im Set enthalten ist, in diesem Fall nach „Who",
+
+32
+00:02:42,280 --> 00:02:45,709
+erhalten wir „False“.
+
+33
+00:02:45,709 --> 00:02:52,010
+Das sind mathematische Set-Operationen; es gibt andere Operationen, die wir durchführen können.
+
+34
+00:02:52,010 --> 00:02:56,010
+Es gibt viele nützliche mathematische Operationen, die wir mit Sets durchführen können.
+
+35
+00:02:56,010 --> 00:03:03,220
+Definieren wir das Set „album set 1“. Wir können es mit einem roten Kreis oder Venn-Diagramm darstellen.
+
+36
+00:03:03,220 --> 00:03:07,219
+Ebenso können wir das Set „album-set 2" definieren.
+
+37
+00:03:07,219 --> 00:03:11,499
+Wir können es auch mit einem blauen Kreis oder Venn-Diagramm darstellen.
+
+38
+00:03:11,499 --> 00:03:16,499
+Die Schnittmenge zweier Sets ist eine neues Set, das Elemente enthält, die in beiden
+
+39
+00:03:16,499 --> 00:03:19,550
+Mengen enthalten sind. Es ist hilfreich, Venn-Diagramme zu verwenden.
+
+40
+00:03:19,550 --> 00:03:25,519
+Die beiden Kreise, die die Sets repräsentieren, verbinden sich; die Überlappung stellt das neue Set dar.
+
+41
+00:03:25,519 --> 00:03:30,299
+Da die Überlappung aus dem roten UND dem blauen Kreis besteht, definieren wir die Schnittmenge
+
+42
+00:03:30,299 --> 00:03:35,709
+mit „and" In Python verwenden wir das kaufmännische Und (&), um die
+
+43
+00:03:35,709 --> 00:03:40,979
+Vereinigung zweier Mengen zu finden. Wenn wir die Werte des Sets über den
+
+44
+00:03:40,979 --> 00:03:46,939
+Kreis legen und die gemeinsamen Elemente in den Überlappungsbereich, sehen wir die Übereinstimmung.
+
+45
+00:03:46,939 --> 00:03:53,599
+Nach der Anwendung der Schnittmengenoperation verschwinden alle Elemente, die nicht in beiden Sets enthalten sind.
+
+46
+00:03:53,599 --> 00:03:58,129
+In Python setzen wir einfach das kaufmännische Und (&) zwischen die beiden Sets.
+
+47
+00:03:58,129 --> 00:04:03,019
+Wir sehen, dass sowohl "AC/DC" als auch "Back in Black" in beiden Sets enthalten sind.
+
+48
+00:04:03,019 --> 00:04:09,669
+Das Ergebnis ist ein neues Set album, set 3, das alle Elemente aus album set 1 und
+
+49
+00:04:09,669 --> 00:04:14,180
+album set 2 enthält. Die Vereinigung von zwei Sets ist ein neues Set von Elementen
+
+50
+00:04:14,180 --> 00:04:19,879
+, das alle Elemente aus beiden Sets enthält. Die Vereinigung der Sets album set
+
+51
+00:04:19,879 --> 00:04:26,289
+1 und album set 2 können wir wie folgt finden. Das Ergebnis ist ein neues Set, das alle Elemente
+
+52
+00:04:26,289 --> 00:04:33,230
+von album set 1 und album set 2 enthält. Dieses neue Set wird in grün dargestellt.
+
+53
+00:04:33,230 --> 00:04:40,300
+Betrachten Sie das neue Set album set 3; das Set enthält die Elemente "AC/DC" und "Back
+
+54
+00:04:40,300 --> 00:04:44,180
+in Black". Wir können dies mit einem Venn-Diagramm darstellen,
+
+55
+00:04:44,180 --> 00:04:48,420
+da sich alle Elemente des album set 3 im album set 1 befinden.
+
+56
+00:04:48,420 --> 00:04:55,120
+Der Kreis, der album set 1 repräsentiert, beinhaltet den Kreis, der album set 3 repräsentiert.
+
+57
+00:04:55,120 --> 00:05:00,740
+Mit der is-subset-Methode können wir prüfen, ob ein Set eine Teilmenge ist.
+
+58
+00:05:00,740 --> 00:05:06,789
+Da album set 3 eine Teilmenge von album set 1 ist, ist das Ergebnis True.
+
+59
+00:05:06,789 --> 00:05:11,759
+Es gibt noch viel mehr, was man mit Sets machen kann. In den Labs finden sich weitere Beispiele.
