@@ -1,0 +1,179 @@
+0
+00:00:00,429 --> 00:00:05,150
+In diesem Video werden wir Ausdrücke und Variablen behandeln.
+
+1
+00:00:05,150 --> 00:00:09,720
+Ausdrücke beschreiben eine Art von Operation, die Computer ausführen.
+
+2
+00:00:09,720 --> 00:00:15,650
+Ausdrücke sind Operationen, die Python ausführt. Zum Beispiel grundlegende arithmetische Operationen wie das
+
+3
+00:00:15,650 --> 00:00:20,930
+Addieren mehrerer Zahlen. Das Ergebnis ist in diesem Fall 160.
+
+4
+00:00:20,930 --> 00:00:26,390
+Wir nennen die Zahlen Operanden und die Mathematik-Symbole, hier Plus, werden
+
+5
+00:00:26,390 --> 00:00:30,270
+Operatoren genannt. Wir können Operationen wie die Subtraktion
+
+6
+00:00:30,270 --> 00:00:34,890
+mit dem Subtraktionszeichen durchführen. In diesem Fall ist das Ergebnis eine negative Zahl.
+
+7
+00:00:34,890 --> 00:00:40,850
+Wir können Multiplikationsoperationen mit dem Sternchen durchführen. Das Ergebnis ist 25.
+
+8
+00:00:40,850 --> 00:00:44,420
+In diesem Fall sind die Operanden - und *.
+
+9
+00:00:44,420 --> 00:00:49,190
+Wir können auch eine Division mit dem Schrägstrich durchführen.
+
+10
+00:00:49,190 --> 00:00:57,329
+25 geteilt durch 5 ist 5. 25 geteilt durch 6 ist ungefähr 4,167.
+
+11
+00:00:57,329 --> 00:01:03,960
+In Python 3, der Version, die wir in diesem Kurs verwenden werden, werden beide zu einem Float führen.
+
+12
+00:01:03,960 --> 00:01:08,479
+Wir können den doppelten Schrägstrich für die ganzzahlige Division verwenden, wobei das Ergebnis gerundet wird.
+
+13
+00:01:08,479 --> 00:01:14,460
+Seien Sie sich bewusst, dass die Ergebnisse in einigen Fällen nicht die gleichen sind wie bei der regulären Division.
+
+14
+00:01:14,460 --> 00:01:18,920
+Python folgt bei der Ausführung von mathematischen Ausdrücken den mathematischen Konventionen.
+
+15
+00:01:18,920 --> 00:01:21,930
+Die folgenden Operationen sind in einer anderen Reihenfolge.
+
+16
+00:01:21,930 --> 00:01:28,369
+In beiden Fällen führt Python die Multiplikation und dann die Addition durch, um das Endergebnis zu erhalten.
+
+17
+00:01:28,369 --> 00:01:34,240
+Es gibt eine Menge mehr Operationen, die Sie mit Python durchführen können. In den Labs finden sich weitere Beispiele.
+
+18
+00:01:34,240 --> 00:01:38,540
+Während des gesamten Kurses werden wir auch komplexere Operationen behandeln.
+
+19
+00:01:38,540 --> 00:01:43,770
+Die Ausdrücke in den Klammern werden zuerst ausgeführt. Wir multiplizieren das Ergebnis dann mit 60,
+
+20
+00:01:43,770 --> 00:01:49,500
+das Ergebnis ist 1920. Nun schauen wir uns die Variablen an.
+
+21
+00:01:49,500 --> 00:01:54,900
+Wir können Variablen verwenden, um Werte zu speichern, in diesem Fall weisen wir der Variable
+
+22
+00:01:54,900 --> 00:02:01,180
+my_variable mit dem Zuweisungsoperator (Gleichheitszeichen) den Wert 1 zu.
+
+23
+00:02:01,180 --> 00:02:06,390
+Wir können den Wert dann an anderer Stelle im Code verwenden, indem wir den genauen Namen der Variablen eingeben.
+
+24
+00:02:06,390 --> 00:02:10,200
+Wir werden einen Doppelpunkt verwenden, um den Wert der Variable festzulegen.
+
+25
+00:02:10,200 --> 00:02:15,309
+Wir können my_variable mit dem Gleichheitszeichen einen neuen Wert zuweisen.
+
+26
+00:02:15,309 --> 00:02:20,769
+Wir vergeben einen Wert von 10. Die Variable hat nun den Wert 10.
+
+27
+00:02:20,769 --> 00:02:26,109
+Der alte Wert der Variable ist nicht wichtig. Wir können die Ergebnisse von Ausdrücken speichern, zum
+
+28
+00:02:26,109 --> 00:02:30,269
+Beispiel fügen wir mehrere Werte hinzu und weisen das Ergebnis x zu.
+
+29
+00:02:30,269 --> 00:02:35,959
+In x ist das Ergebnis nun gespeichert. Wir können auch Operationen mit x durchführen und das Ergebnis in einer neuen Variablen y speichern
+
+30
+00:02:35,959 --> 00:02:42,430
+. y hat jetzt einen Wert von 2,666
+
+31
+00:02:42,430 --> 00:02:47,389
+Wir können auch Operationen mit x durchführen und den Wert x zuweisen.
+
+32
+00:02:47,389 --> 00:02:55,980
+Die Variable x hat nun den Wert 2.666. Der alte Wert von x ist nach wie vor unwichtig.
+
+33
+00:02:55,980 --> 00:02:59,150
+Wir können den type-Befehl auch bei Variablen verwenden.
+
+34
+00:02:59,150 --> 00:03:03,739
+Es ist eine gute Praxis, aussagekräftige Variablennamen zu verwenden, damit man gleich weiß
+
+35
+00:03:03,739 --> 00:03:07,589
+was der Zweck der Variablen ist. Nehmen wir an, wir möchten die Anzahl
+
+36
+00:03:07,589 --> 00:03:12,909
+der Minuten in den hervorgehobenen Beispielen in die Anzahl der Stunden im folgenden Musikdatensatz umrechnen.
+
+37
+00:03:12,909 --> 00:03:18,689
+Wir nennen die Variable, die die Gesamtzahl der Minuten enthält, total_min. Es ist üblich
+
+38
+00:03:18,689 --> 00:03:23,409
+, den Unterstrich zu verwenden, um den Anfang eines neuen Wortes darzustellen, Sie können auch einen Großbuchstaben
+
+39
+00:03:23,409 --> 00:03:26,360
+verwenden. Wir nennen die Variable, die die Gesamtstundenzahl
+
+40
+00:03:26,360 --> 00:03:31,639
+total_hr enthält. Die Gesamtzahl der Stunden erhalten wir, indem
+
+41
+00:03:31,639 --> 00:03:39,329
+wir total_min durch 60 dividieren. Das Ergebnis beträgt etwa 2.367 Stunden.
+
+42
+00:03:39,329 --> 00:03:44,439
+Wenn wir den Wert der ersten Variablen ändern, ändert sich der Wert der Variablen.
+
+43
+00:03:44,439 --> 00:03:49,299
+Die endgültigen Ergebniswerte ändern sich entsprechend, aber wir müssen den Rest des
+
+44
+00:03:49,299 --> 00:03:49,799
+Codes nicht ändern.

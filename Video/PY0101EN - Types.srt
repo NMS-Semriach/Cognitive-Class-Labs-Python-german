@@ -1,0 +1,135 @@
+0
+00:00:00,489 --> 00:00:06,309
+Der Typ bestimmt, wie Python verschiedene Arten von Daten darstellt. In diesem Video werden wir einige weit verbreitete Typen in Python diskutieren
+
+1
+00:00:06,309 --> 00:00:11,850
+. Sie können verschiedene Typen in Python verwenden.
+
+2
+00:00:11,850 --> 00:00:19,550
+Sie können ganze Zahlen wie 11, reelle Zahlen wie 21.213 sein. Es können sogar Worte sein.
+
+3
+00:00:19,550 --> 00:00:24,529
+Ganze Zahlen, reelle Zahlen und Wörter können als unterschiedliche Datentypen ausgedrückt werden.
+
+4
+00:00:24,529 --> 00:00:29,060
+Die folgende Tabelle fasst drei Datentypen für die vorigen Beispiele zusammen.
+
+5
+00:00:29,060 --> 00:00:34,450
+Die erste Spalte gibt den Ausdruck an. Die zweite Spalte gibt den Datentyp an.
+
+6
+00:00:34,450 --> 00:00:38,810
+Wir können den tatsächlichen Datentyp in Python sehen, indem wir den Befehl type verwenden.
+
+7
+00:00:38,810 --> 00:00:44,570
+Wir können int haben, das für eine ganze Zahl steht, und float, das für Fließkommazahlen steht, im Wesentlichen
+
+8
+00:00:44,570 --> 00:00:48,680
+eine reelle Zahl. Der Typ String ist eine Folge von Zeichen.
+
+9
+00:00:48,680 --> 00:00:53,580
+Hier sind einige Integer; Integer können negativ oder positiv sein.
+
+10
+00:00:53,580 --> 00:00:59,220
+Es ist zu beachten, dass es eine endliche Anzahl von Integern gibt, aber sie ist ziemlich groß.
+
+11
+00:00:59,220 --> 00:01:05,390
+Floats sind reelle Zahlen; sie umfassen die Integer, aber auch Zahlen zwischen Integern.
+
+12
+00:01:05,390 --> 00:01:11,170
+Betrachten Sie die Zahlen zwischen 0 und 1. Wir können Zahlen dazwischen wählen; diese Zahlen
+
+13
+00:01:11,170 --> 00:01:16,000
+sind Floats. Ähnlich verhält es sich mit den Zahlen zwischen 0,5
+
+14
+00:01:16,000 --> 00:01:21,970
+und 0,6. Wir können Zahlen dazwischen wählen; auch diese sind Floats.
+
+15
+00:01:21,970 --> 00:01:27,450
+Wir können den Prozess fortsetzen und so auf verschiedene Zahlen heranzoomen. Natürlich gibt es eine Grenze,
+
+16
+00:01:27,450 --> 00:01:31,499
+aber sie ist ziemlich klein. Sie können den Typ eines Ausdrucks
+
+17
+00:01:31,499 --> 00:01:38,119
+in Python ändern; dies nennt man Type-Casting. Sie können einen int in einen float konvertieren.
+
+18
+00:01:38,119 --> 00:01:43,280
+Zum Beispiel können Sie die Integerzahl 2 in eine Floatzahl 2 konvertieren oder casten.
+
+19
+00:01:43,280 --> 00:01:47,520
+Es ändert sich eigentlich nichts. Wenn Sie einen Float auf eine Integer casten, müssen
+
+20
+00:01:47,520 --> 00:01:52,259
+Sie vorsichtig sein. Wenn Sie zum Beispiel die Float 1.1 zu
+
+21
+00:01:52,259 --> 00:01:57,521
+1 konvertieren, verlieren Sie einige Informationen. Wenn ein String einen Integer-Wert enthält, können Sie
+
+22
+00:01:57,521 --> 00:02:02,939
+ihn nach int konvertieren. Wenn wir einen String konvertieren, der einen nicht ganzzahligen
+
+23
+00:02:02,939 --> 00:02:07,439
+Wert enthält, erhalten wir einen Fehler. Sehen Sie sich weitere Beispiele im Lab an.
+
+24
+00:02:07,439 --> 00:02:11,750
+Sie können ein int in einen String oder ein float in einen String konvertieren.
+
+25
+00:02:11,750 --> 00:02:17,640
+Boolean ist ein weiterer wichtiger Typ in Python. Ein Boolean kann zwei Werte annehmen.
+
+26
+00:02:17,640 --> 00:02:22,420
+Der erste Wert ist wahr, beachte, dass wir ein großgeschriebenes True verwenden.
+
+27
+00:02:22,420 --> 00:02:26,660
+Boolesche Werte können auch falsch sein, großgeschrieben False.
+
+28
+00:02:26,660 --> 00:02:32,720
+Mit dem type-Befehl auf einen booleschen Wert erhalten wir den Begriff bool, dies ist die Abkürzung für
+
+29
+00:02:32,720 --> 00:02:36,580
+Boolean. Wenn wir ein Boolesches True zu einem Integer oder
+
+30
+00:02:36,580 --> 00:02:41,420
+Float casten, erhalten wir eine 1. Wenn wir ein boolesches False zu einem Integer oder 
+
+31
+00:02:41,420 --> 00:02:46,660
+Float casten, erhalten wir eine Null. Wenn man eine 1 nach Boolean konvertiert, erhält man True.
+
+32
+00:02:46,660 --> 00:02:51,130
+Wenn man eine 0 nach Boolean konvertiert, erhält man False.
+
+33
+00:02:51,130 --> 00:02:57,050
+In den Labs finden sich weitere Beispiele oder suchen Sie auf Python.org nach anderen Typen in Python.

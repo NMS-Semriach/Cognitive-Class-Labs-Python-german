@@ -1,0 +1,63 @@
+0
+00:00:00,099 --> 00:00:05,660
+Dein erstes Programm in Python. Eine Anweisung oder ein Ausdruck ist ein Befehl, den
+
+1
+00:00:05,660 --> 00:00:10,360
+der Computer ausführt oder verarbeitet. Das vielleicht einfachste Programm, das Sie schreiben
+
+2
+00:00:10,360 --> 00:00:14,490
+können, ist ein Print-Befehl. Wenn Sie die Print-Anweisung ausführen, zeigt Python
+
+3
+00:00:14,490 --> 00:00:19,520
+einfach den Wert in den Klammern an. Der Wert in den Klammern wird als
+
+4
+00:00:19,520 --> 00:00:23,480
+Argument bezeichnet. Wenn Sie in diesem
+
+5
+00:00:23,480 --> 00:00:27,640
+Kurs ein Jupiter-Notebook verwenden, sehen Sie ein kleines Rechteck mit der Anweisung.
+
+6
+00:00:27,640 --> 00:00:31,780
+Das nennt man eine Zelle. Wenn Sie diese Zelle mit der Maus markieren, dann
+
+7
+00:00:31,780 --> 00:00:37,660
+klicken Sie auf die Schaltfläche Zelle ausführen. Die Anweisung wird ausgeführt. Das Ergebnis wird unterhalb
+
+8
+00:00:37,660 --> 00:00:41,249
+der Zelle angezeigt. Wir werden diesem Muster in den Videos folgen.
+
+9
+00:00:41,249 --> 00:00:46,891
+Es ist üblich, den Code zu kommentieren. Das sagt anderen Leuten, was Ihr Code macht. Sie setzen
+
+10
+00:00:46,891 --> 00:00:52,329
+einfach ein Raute-Symbol vor Ihren Kommentar. Wenn Sie den Code ausführen, wird Python
+
+11
+00:00:52,329 --> 00:00:56,149
+den Kommentar ignorieren. Ein Syntaktischer Fehler liegt vor, wenn Python Ihren Code nicht
+
+12
+00:00:56,149 --> 00:01:02,609
+versteht. Wenn Sie zum Beispiel "frint" schreiben, erhalten Sie eine
+
+13
+00:01:02,609 --> 00:01:06,750
+Fehlermeldung. Ein semantischer Fehler ist, wenn Ihre Logik falsch ist.
+
+14
+00:01:06,750 --> 00:01:13,549
+Wenn Sie zum Beispiel Python 102 statt Python 101 eingeben, erhalten Sie keine Fehlermeldung,
+
+15
+00:01:13,549 --> 00:01:14,850
+aber Ihr Code ist falsch.
