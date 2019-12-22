@@ -1,0 +1,331 @@
+0
+00:00:00,229 --> 00:00:05,780
+In diesem Video werden wir Schleifen behandeln, insbesondere "for loops" und "while loops"
+
+1
+00:00:05,780 --> 00:00:10,860
+Wir werden in diesem Video viele visuelle Beispiele verwenden. In den Labs finden sich weitere Beispiele.
+
+2
+00:00:10,860 --> 00:00:14,610
+Bevor wir über Schleifen sprechen, schauen wir uns die range-Funktion an.
+
+3
+00:00:14,610 --> 00:00:18,859
+Die Funktion range gibt eine geordnete Folge als Liste "i" aus.
+
+4
+00:00:18,859 --> 00:00:24,570
+Ist die Eingabe eine positive ganze Zahl, ist die Ausgabe eine Reihenfolge; die Reihenfolge enthält die gleiche
+
+5
+00:00:24,570 --> 00:00:28,199
+Anzahl von Elementen wie die Eingabe, beginnt aber bei Null.
+
+6
+00:00:28,199 --> 00:00:34,530
+Wenn der Eingang beispielsweise 3 ist, ist der Ausgang die Reihenfolge 0,1,2.
+
+7
+00:00:34,530 --> 00:00:39,250
+Wenn die Funktion range zwei Eingangswerte hat, wobei der erste größer als der zweite
+
+8
+00:00:39,250 --> 00:00:43,000
+ist, beginnt die Reihenfolge beim ersten Eingangswert.
+
+9
+00:00:43,000 --> 00:00:47,359
+Dann zählt die Folge bis zur zweiten Zahl, hört aber vor dieser auf.
+
+10
+00:00:47,359 --> 00:00:53,899
+Für die Eingabe 10 und 15 erhalten wir diese Folge. Für weitere Möglichkeiten
+
+11
+00:00:53,899 --> 00:00:58,520
+der Funktion range siehe die Labs. Bitte beachten Sie: Wenn Sie Python 3 verwenden, wird die range-Funktion
+
+12
+00:00:58,520 --> 00:01:02,750
+nicht explizit eine Liste wie in Python 2 erzeugen.
+
+13
+00:01:02,750 --> 00:01:08,360
+In diesem Abschnitt werden wir „for-Schleifen" behandeln. Wir werden uns auf Listen konzentrieren, aber viele der Verfahren
+
+14
+00:01:08,360 --> 00:01:13,700
+können auf Tupel angewendet werden. Schleifen führen eine Aufgabe immer wieder aus.
+
+15
+00:01:13,700 --> 00:01:18,090
+Betrachten Sie die Gruppe der farbigen Quadrate. Nehmen wir an, wir möchten jedes farbige
+
+16
+00:01:18,090 --> 00:01:22,270
+Quadrat durch ein weißes Quadrat ersetzen. Weisen wir jedem Quadrat eine Zahl zu, um die Sache
+
+17
+00:01:22,270 --> 00:01:27,070
+etwas einfacher zu machen, und bezeichnen wir die gesamte Gruppe von Quadraten als squares.
+
+18
+00:01:27,070 --> 00:01:33,570
+Um das Quadrat square 0 durch ein weißes Quadrat zu ersetzen, könnten wir sagen: „=ersetze
+
+19
+00:01:33,570 --> 00:01:41,530
+square 0 durch ein weißes Quadrat" oder wir können sagen: “For square 0 in squares, square 0=
+
+20
+00:01:41,530 --> 00:01:45,840
+white square.” Genauso können wir für das nächste Quadrat sagen,
+
+21
+00:01:45,840 --> 00:01:51,690
+“For square 1 in squares, square 1 = white square.”
+
+22
+00:01:51,690 --> 00:01:58,800
+Für das nächste Quadrat können wir sagen: “For square 2 in squares, square 2= white square.”
+
+23
+00:01:58,800 --> 00:02:03,650
+Wir wiederholen den Vorgang für jedes Quadrat. Das einzige, was sich ändert, ist der Index
+
+24
+00:02:03,650 --> 00:02:08,330
+des Quadrats, auf das wir uns beziehen. Wenn wir eine ähnliche Aufgabe
+
+25
+00:02:08,330 --> 00:02:14,970
+in Python durchführen wollen, können wir keine tatsächlichen Quadrate verwenden. Verwenden wir also eine Liste zur Darstellung der Quadrate.
+
+26
+00:02:14,970 --> 00:02:18,209
+Jedes Element in der Liste ist ein String, der die Farbe angibt.
+
+27
+00:02:18,209 --> 00:02:22,069
+Wir wollen den Namen der Farbe in jedem Element in white ändern.
+
+28
+00:02:22,069 --> 00:02:25,239
+Jedes Element in der Liste hat den folgenden Index.
+
+29
+00:02:25,239 --> 00:02:29,880
+Das ist die Syntax zur Durchführung einer Schleife in Python. Beachten Sie die Einrückung.
+
+30
+00:02:29,880 --> 00:02:34,099
+Die Funktion range erzeugt eine Liste. Der Code wiederholt einfach alles
+
+31
+00:02:34,099 --> 00:02:39,180
+innerhalb des Einzugs 5 Mal. Wenn Sie den Wert auf 6 ändern würden, würde er es 6 Mal
+
+32
+00:02:39,180 --> 00:02:45,659
+tun, jedoch wird der Wert von "i" jedes Mal um eins erhöht.
+
+33
+00:02:45,659 --> 00:02:49,680
+In diesem Segment ändern wir das i-te Element der Liste in den String white.
+
+34
+00:02:49,680 --> 00:02:54,719
+Der Wert von "i" wird auf Null gesetzt. Jede Iteration der Schleife beginnt am Anfang
+
+35
+00:02:54,719 --> 00:02:58,329
+des Einzugs. Danach wird alles mit diesem Einzug abgearbeitet.
+
+36
+00:02:58,329 --> 00:03:02,829
+Das erste Element in der Liste wird auf white gesetzt. Wir gehen dann zum Anfang des Einzugs.
+
+37
+00:03:02,829 --> 00:03:06,780
+Wir Zeile für Zeile weiter. Wenn wir die Zeile zur Änderung des Wertes
+
+38
+00:03:06,780 --> 00:03:10,939
+der Liste erreichen, setzen wir den Wert von Index 1 auf white.
+
+39
+00:03:10,939 --> 00:03:16,499
+Der Wert von "i" erhöht sich um eins. Wir wiederholen den Vorgang für index 2.
+
+40
+00:03:16,499 --> 00:03:22,909
+Der Prozess wird für den nächsten Index fortgesetzt, bis wir das letzte Element erreicht haben.
+
+41
+00:03:22,909 --> 00:03:28,079
+Wir können auch durch eine Liste oder ein Tupel direkt in Python iterieren, wir müssen nicht einmal Indizes
+
+42
+00:03:28,079 --> 00:03:32,430
+verwenden. Hier ist die Liste der Quadrate. Bei jeder Iteration
+
+43
+00:03:32,430 --> 00:03:36,969
+der Liste übergeben wir ein Element der Liste squares an die Variable square.
+
+44
+00:03:36,969 --> 00:03:40,689
+Der Wert der Variablen square soll in diesem Abschnitt angezeigt werden.
+
+45
+00:03:40,689 --> 00:03:44,129
+Für die erste Iteration ist der Wert von square rot.
+
+46
+00:03:44,129 --> 00:03:50,190
+Dann starten wir die zweite Iteration. Für die zweite Iteration ist der Wert von square gelb.
+
+47
+00:03:50,190 --> 00:03:55,799
+Dann starten wir die drittens Iteration. Für die letzte Iteration ist der Wert von square grün.
+
+48
+00:03:55,799 --> 00:04:01,680
+Eine nützliche Funktion zur Iteration von Daten ist enumerate. Sie kann verwendet werden, um den Index und das
+
+49
+00:04:01,680 --> 00:04:05,609
+Element in der Liste zu erhalten. Lassen Sie uns die Schachtel-Analogie verwenden, wobei die Zahlen den Index jedes Quadrats
+
+50
+00:04:05,609 --> 00:04:10,640
+darstellen. Das ist die Syntax, um durch eine Liste zu iterieren,
+
+51
+00:04:10,640 --> 00:04:15,389
+um den Index für jedes Elements auszugeben. Wir verwenden die Liste squares und verwenden die Namen
+
+52
+00:04:15,389 --> 00:04:20,600
+der Farben, um die farbigen Quadrate darzustellen. Das Argument der Funktion enumerate ist
+
+53
+00:04:20,600 --> 00:04:26,610
+die Liste, in diesem Fall squares. Die Variable "i" ist der Index, und die Variable
+
+54
+00:04:26,610 --> 00:04:29,960
+square ist das entsprechende Element in der Liste.
+
+55
+00:04:29,960 --> 00:04:35,000
+Benutzen wir den linken Teil des Bildschirms, um die verschiedenen Werte der Variablen square anzuzeigen,
+
+56
+00:04:35,000 --> 00:04:39,780
+und "i" für die verschiedenen Durchläufe der Schleife. Beim ersten Durchlauf ist der Wert der
+
+57
+00:04:39,780 --> 00:04:45,950
+Variablen red, entsprechend dem nullten Index, und der Wert für "i" ist Null.
+
+58
+00:04:45,950 --> 00:04:50,950
+Beim zweiten Durchlauf ist der Wert der Variablen square yellow und der Wert von
+
+59
+00:04:50,950 --> 00:04:57,330
+"i" entspricht ihrem Index, d.h. 1. Wir wiederholen den Vorgang für den letzten Index.
+
+60
+00:04:57,330 --> 00:05:03,600
+"While-Schleifen" sind ähnlich wie "for-Schleifen", aber anstatt eine Anweisung eine bestimmte
+
+61
+00:05:03,600 --> 00:05:07,960
+Anzahl von Malen auszuführen, wird eine while-Schleife nur dann ausgeführt, wenn eine Bedingung erfüllt ist.
+
+62
+00:05:07,960 --> 00:05:12,800
+Nehmen wir an, wir würden gerne alle orangefarbenen Quadrate aus der Liste squares in die
+
+63
+00:05:12,800 --> 00:05:18,010
+Liste new_squares kopieren, aber wir würden gerne aufhören, wenn wir auf ein nicht-oranges Quadrat stoßen.
+
+64
+00:05:18,010 --> 00:05:22,780
+Wir kennen die Anzahl der Quadrate nicht im Voraus. Wir würden den Prozess einfach fortsetzen, solange
+
+65
+00:05:22,780 --> 00:05:28,490
+das Quadrat orange ist, oder prüfen, ob das Quadrat gleich orange ist; wenn nicht, würden wir aufhören.
+
+66
+00:05:28,490 --> 00:05:31,870
+Für das erste Beispiel würden wir prüfen, ob square gleich orange ist.
+
+67
+00:05:31,870 --> 00:05:35,090
+Es erfüllt die Bedingung, also würden wir das Quadrat kopieren.
+
+68
+00:05:35,090 --> 00:05:41,050
+Wir wiederholen den Vorgang für das zweite Quadrat. Die Bedingung ist erfüllt, also kopieren wir das Quadrat.
+
+69
+00:05:41,050 --> 00:05:44,360
+Im nächsten Durchlauf begegnen wir einem violetten Quadrat.
+
+70
+00:05:44,360 --> 00:05:50,050
+Die Bedingung ist nicht erfüllt, also stoppen wir den Prozess. Das ist im Wesentlichen das, was eine "while loop"
+
+71
+00:05:50,050 --> 00:05:52,590
+macht. Verwenden wir die Abbildung links,
+
+72
+00:05:52,590 --> 00:05:55,591
+um den Code darzustellen. Wir werden eine Liste mit den Namen der Farben
+
+73
+00:05:55,591 --> 00:06:00,690
+verwenden, um die verschiedenen Quadrate darzustellen. Wir erstellen eine leere Liste namens „new_squares"
+
+74
+00:06:00,690 --> 00:06:06,410
+Jetzt ist die Liste eigentlich von unbestimmter Größe. Wir beginnen den Index bei Null.
+
+75
+00:06:06,410 --> 00:06:10,330
+Die "while"-Anweisung wird die Anweisungen innerhalb des Einzugs wiederholt ausführen, bis
+
+76
+00:06:10,330 --> 00:06:15,430
+die Bedingung innerhalb der Klammer falsch ist. Wir fügen den Wert des ersten Elements der
+
+77
+00:06:15,430 --> 00:06:21,410
+Liste squares zur Liste „new_squares" hinzu. Wir erhöhen den Wert von "i" um eins.
+
+78
+00:06:21,410 --> 00:06:26,830
+Wir fügen den Wert des zweiten Elements der Liste squares zur Liste „new_squares" hinzu.
+
+79
+00:06:26,830 --> 00:06:31,330
+Wir erhöhen den Wert von "i". Nun ist der Wert der Liste „squares"
+
+80
+00:06:31,330 --> 00:06:34,340
+purple. Daher ist die Bedingung für die "while"
+
+81
+00:06:34,340 --> 00:06:39,200
+-Anweisung False und wir verlassen die Schleife. In den Labs sind weitere Beispiele von Schleifen,
+
+82
+00:06:39,200 --> 00:06:39,700
+viele davon mit echten Daten.

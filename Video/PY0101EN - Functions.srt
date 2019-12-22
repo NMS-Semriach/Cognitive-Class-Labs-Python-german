@@ -1,0 +1,648 @@
+0
+00:00:00,460 --> 00:00:06,180
+In this video we will cover functions. You will learn how to use some of Python’s built-in
+
+1
+00:00:06,180 --> 00:00:10,000
+functions as well as how to build your own functions.
+
+2
+00:00:10,000 --> 00:00:14,120
+Functions take some input then produce some output or change.
+
+3
+00:00:14,120 --> 00:00:17,480
+The function is just a piece of code you can reuse.
+
+4
+00:00:17,480 --> 00:00:22,720
+You can implement your own function, but in many cases, you use other people’s functions.
+
+5
+00:00:22,720 --> 00:00:27,630
+In this case, you just have to know how the function works and in some cases how to import
+
+6
+00:00:27,630 --> 00:00:31,580
+the functions. Let the orange and yellow squares represent
+
+7
+00:00:31,580 --> 00:00:36,390
+similar blocks of code. We can run the code using some input and get
+
+8
+00:00:36,390 --> 00:00:40,510
+an output. If we define a function to do the task we
+
+9
+00:00:40,510 --> 00:00:44,929
+just have to call the function. Let the small squares represent the lines
+
+10
+00:00:44,929 --> 00:00:49,660
+of code used to call the function. We can replace these long lines of code by
+
+11
+00:00:49,660 --> 00:00:55,290
+just calling the function a few times. Now we can just call the function; our code
+
+12
+00:00:55,290 --> 00:01:00,620
+is much shorter. The code performs the same task.
+
+13
+00:01:00,620 --> 00:01:06,310
+You can think of the process like this: when we call the function f1, we pass an input
+
+14
+00:01:06,310 --> 00:01:11,700
+to the function. These values are passed to all those lines of code you wrote.
+
+15
+00:01:11,700 --> 00:01:17,310
+This returns a value; you can use the value. For example, you can input this value to a
+
+16
+00:01:17,310 --> 00:01:22,700
+new function f2. When we call this new function f2, the value
+
+17
+00:01:22,700 --> 00:01:27,149
+is passed to another set of lines of code. The function returns a value.
+
+18
+00:01:27,149 --> 00:01:32,079
+The process is repeated passing the values to the function you call.
+
+19
+00:01:32,079 --> 00:01:38,689
+You can save these functions and reuse them, or use other people’s functions.
+
+20
+00:01:38,689 --> 00:01:43,430
+Python has many built-in functions; you don't have to know how those functions work internally,
+
+21
+00:01:43,430 --> 00:01:50,469
+but simply what task those functions perform. The function len takes in an input of type
+
+22
+00:01:50,469 --> 00:01:56,820
+sequence, such as a string or list, or type collection, such as a dictionary or set, and
+
+23
+00:01:56,820 --> 00:02:01,909
+returns the length of that sequence or collection. Consider the following list.
+
+24
+00:02:01,909 --> 00:02:07,460
+The len function takes this list as an argument, and we assign the result to the variable L.
+
+25
+00:02:07,460 --> 00:02:12,250
+The function determines there are 8 items in the list, then returns the length of the
+
+26
+00:02:12,250 --> 00:02:18,200
+list, in this case, 8. The function sum takes in an iterable like
+
+27
+00:02:18,200 --> 00:02:22,220
+a tuple or list and returns the total of all the elements.
+
+28
+00:02:22,220 --> 00:02:26,500
+Consider the following list. We pass the list into the sum function and
+
+29
+00:02:26,500 --> 00:02:31,300
+assign the result to the variable S. The function determines the total of all the
+
+30
+00:02:31,300 --> 00:02:36,830
+elements, then returns it, in this case, the value is 70.
+
+31
+00:02:36,830 --> 00:02:41,830
+There are two ways to sort a list. The first is using the function sorted.
+
+32
+00:02:41,830 --> 00:02:46,780
+We can also use the list method sort. Methods are similar to functions.
+
+33
+00:02:46,780 --> 00:02:50,870
+Let's use this as an example to illustrate the difference.
+
+34
+00:02:50,870 --> 00:02:54,320
+The function sorted Returns a new sorted list or tuple.
+
+35
+00:02:54,320 --> 00:02:59,900
+Consider the list album ratings. We can apply the function sorted to the list
+
+36
+00:02:59,900 --> 00:03:03,950
+album ratings and get a new list sorted album rating.
+
+37
+00:03:03,950 --> 00:03:09,260
+The result is a new sorted list. If we look at the list album ratings, nothing
+
+38
+00:03:09,260 --> 00:03:13,200
+has changed. Generally, functions take an input, in this
+
+39
+00:03:13,200 --> 00:03:19,340
+case, a list. They produce a new output, in this instance, a sorted list.
+
+40
+00:03:19,340 --> 00:03:24,200
+If we use the method sort, the list album ratings will change and no new list will be
+
+41
+00:03:24,200 --> 00:03:27,730
+created. Let's use this diagram to help illustrate
+
+42
+00:03:27,730 --> 00:03:31,350
+the process. In this case, the rectangle represents the
+
+43
+00:03:31,350 --> 00:03:37,040
+list album ratings. When we apply the method sort to the list,
+
+44
+00:03:37,040 --> 00:03:42,200
+the list album rating changes. Unlike the previous case, we see that the
+
+45
+00:03:42,200 --> 00:03:46,920
+list album rating has changed. In this case, no new list is created.
+
+46
+00:03:46,920 --> 00:03:52,410
+Now that we have gone over how to use functions in Python, let’s see how to build our own
+
+47
+00:03:52,410 --> 00:03:56,430
+functions. We will now get you started on building your
+
+48
+00:03:56,430 --> 00:04:01,180
+own functions in python. This is an example of a function in python
+
+49
+00:04:01,180 --> 00:04:06,960
+that returns its input value + 1. To define a function, we start with the keyword
+
+50
+00:04:06,960 --> 00:04:10,610
+def. The name of the function should be descriptive
+
+51
+00:04:10,610 --> 00:04:14,750
+of what it does. We have the function formal parameter "A"
+
+52
+00:04:14,750 --> 00:04:18,139
+in parentheses. Followed by a colon.
+
+53
+00:04:18,139 --> 00:04:25,080
+We have a code block with an indent, for this case, we add 1 to "A" and assign it to B.
+
+54
+00:04:25,080 --> 00:04:30,830
+We return or output the value for b. After we define the function, we can call
+
+55
+00:04:30,830 --> 00:04:35,139
+it. The function will add 1 to 5 and return a
+
+56
+00:04:35,139 --> 00:04:38,129
+6. We can call the function again; this time
+
+57
+00:04:38,129 --> 00:04:42,910
+assign it to the variable "c" The value for 'c' is 11.
+
+58
+00:04:42,910 --> 00:04:48,479
+Let's explore this further. Let's go over an example when you call a function.
+
+59
+00:04:48,479 --> 00:04:53,449
+It should be noted that this is a simplified model of Python, and Python does not work
+
+60
+00:04:53,449 --> 00:04:59,300
+like this under the hood. We call the function giving it an input, 5.
+
+61
+00:04:59,300 --> 00:05:02,909
+It helps to think of the value of 5 as being passed to the function.
+
+62
+00:05:02,909 --> 00:05:07,979
+Now the sequences of commands are run, the value of "A" is 5.
+
+63
+00:05:07,979 --> 00:05:13,700
+"B" would be assigned a value of 6. We then return the value of b, in this case,
+
+64
+00:05:13,700 --> 00:05:19,290
+as b was assigned a value of 6, the function returns a 6.
+
+65
+00:05:19,290 --> 00:05:25,580
+If we call the function again, the process starts from scratch; we pass in an 8.
+
+66
+00:05:25,580 --> 00:05:30,159
+The subsequent operations are performed. Everything that happened in the last call
+
+67
+00:05:30,159 --> 00:05:33,509
+will happen again with a different value of "A"
+
+68
+00:05:33,509 --> 00:05:37,190
+The function returns a value, in this case, 9.
+
+69
+00:05:37,190 --> 00:05:43,120
+Again, this is just a helpful analogy. Let’s try and make this function more complex.
+
+70
+00:05:43,120 --> 00:05:48,759
+It's customary to document the function on the first few lines; this tells anyone who
+
+71
+00:05:48,759 --> 00:05:53,349
+uses the function what it does. This documentation is surrounded in triple
+
+72
+00:05:53,349 --> 00:05:56,819
+quotes. You can use the help command on the function
+
+73
+00:05:56,819 --> 00:06:02,610
+to display the documentation as follows. This will printout the function name and the
+
+74
+00:06:02,610 --> 00:06:06,160
+documentation. We will not include the documentation in the
+
+75
+00:06:06,160 --> 00:06:11,770
+rest of the examples. A function can have multiple parameters.
+
+76
+00:06:11,770 --> 00:06:17,569
+The function mult multiplies two numbers; in other words, it finds their product.
+
+77
+00:06:17,569 --> 00:06:22,720
+If we pass the integers 2 and 3, the result is a new integer.
+
+78
+00:06:22,720 --> 00:06:32,129
+If we pass the integer 10 and the float 3.14, the result is a float 31.4.
+
+79
+00:06:32,129 --> 00:06:37,090
+If we pass in the integer two and the string “Michael Jackson,” the string Michael
+
+80
+00:06:37,090 --> 00:06:41,939
+Jackson is repeated two times. This is because the multiplication symbol
+
+81
+00:06:41,939 --> 00:06:47,099
+can also mean repeat a sequence. If you accidentally multiply an integer and
+
+82
+00:06:47,099 --> 00:06:50,909
+a String instead of two integers, you won’t get an error.
+
+83
+00:06:50,909 --> 00:06:56,219
+Instead, you will get a String, and your program will progress, potentially failing later because
+
+84
+00:06:56,219 --> 00:07:02,229
+you have a String where you expected an integer. This property will make coding simpler, but
+
+85
+00:07:02,229 --> 00:07:08,349
+you must test your code more thoroughly. In many cases a function does not have a return
+
+86
+00:07:08,349 --> 00:07:12,729
+statement. In these cases, Python will return the special
+
+87
+00:07:12,729 --> 00:07:16,760
+“None” object. Practically speaking, if your function has
+
+88
+00:07:16,760 --> 00:07:21,159
+no return statement, you can treat it as if the function returns nothing at all.
+
+89
+00:07:21,159 --> 00:07:26,389
+The function MJ simply prints the name 'Michael Jackson’.
+
+90
+00:07:26,389 --> 00:07:31,189
+We call the function. The function prints “Michael Jackson.”
+
+91
+00:07:31,189 --> 00:07:35,749
+Let's define the function “No work” that performs no task.
+
+92
+00:07:35,749 --> 00:07:41,069
+Python doesn’t allow a function to have an empty body, so we can use the keyword pass,
+
+93
+00:07:41,069 --> 00:07:45,749
+which doesn’t do anything, but satisfies the requirement of a non-empty body.
+
+94
+00:07:45,749 --> 00:07:51,309
+If we call the function and print it out, the function returns a None.
+
+95
+00:07:51,309 --> 00:07:56,680
+In the background, if the return statement is not called, Python will automatically return
+
+96
+00:07:56,680 --> 00:08:00,120
+a None. It is helpful to view the function No Work
+
+97
+00:08:00,120 --> 00:08:06,559
+with the following return statement. Usually, functions perform more than one task.
+
+98
+00:08:06,559 --> 00:08:10,559
+This function prints a statement then returns a value.
+
+99
+00:08:10,559 --> 00:08:15,559
+Let's use this table to represent the different values as the function is called.
+
+100
+00:08:15,559 --> 00:08:20,370
+We call the function with an input of 2. We find the value of b.
+
+101
+00:08:20,370 --> 00:08:24,409
+The function prints the statement with the values of a and b.
+
+102
+00:08:24,409 --> 00:08:29,909
+Finally, the function returns the value of b, in this case, 3.
+
+103
+00:08:29,909 --> 00:08:35,190
+We can use loops in functions. This function prints out the values and indexes
+
+104
+00:08:35,190 --> 00:08:39,620
+of a loop or tuple. We call the function with the list album ratings
+
+105
+00:08:39,620 --> 00:08:43,520
+as an input. Let's display the list on the right with its
+
+106
+00:08:43,520 --> 00:08:48,080
+corresponding index. Stuff is used as an input to the function
+
+107
+00:08:48,080 --> 00:08:53,110
+enumerate. This operation will pass the index to i and
+
+108
+00:08:53,110 --> 00:08:57,820
+the value in the list to “s”. The function would begin to iterate through
+
+109
+00:08:57,820 --> 00:09:01,730
+the loop. The function will print the first index and
+
+110
+00:09:01,730 --> 00:09:06,700
+the first value in the list. We continue iterating through the loop.
+
+111
+00:09:06,700 --> 00:09:11,560
+The values of i and s are updated. The print statement is reached.
+
+112
+00:09:11,560 --> 00:09:16,560
+Similarly, the next values of the list and index are printed.
+
+113
+00:09:16,560 --> 00:09:21,080
+The process is repeated. The values of i and s are updated.
+
+114
+00:09:21,080 --> 00:09:26,240
+We continue iterating until the final values in the list are printed out.
+
+115
+00:09:26,240 --> 00:09:31,450
+Variadic parameters allow us to input a variable number of elements.
+
+116
+00:09:31,450 --> 00:09:37,880
+Consider the following function; the function has an asterisk on the parameter names.
+
+117
+00:09:37,880 --> 00:09:42,810
+When we call the function, three parameters are packed into the tuple names.
+
+118
+00:09:42,810 --> 00:09:48,280
+We then iterate through the loop; the values are printed out accordingly.
+
+119
+00:09:48,280 --> 00:09:53,580
+If we call the same function with only two parameters as inputs, the variable names only
+
+120
+00:09:53,580 --> 00:09:58,090
+contain two elements. The result is only two values are printed
+
+121
+00:09:58,090 --> 00:10:01,340
+out. The scope of a variable is the part of the
+
+122
+00:10:01,340 --> 00:10:06,380
+program where that variable is accessible. Variables that are defined outside of any
+
+123
+00:10:06,380 --> 00:10:11,100
+function are said to be within the global scope, meaning they can be accessed anywhere
+
+124
+00:10:11,100 --> 00:10:15,320
+after they are defined. Here we have a function that adds the string
+
+125
+00:10:15,320 --> 00:10:19,820
+DC to the parameter x. When we reach the part where the value of
+
+126
+00:10:19,820 --> 00:10:26,320
+x is set to AC, this is within the global scope, meaning x is accessible anywhere after
+
+127
+00:10:26,320 --> 00:10:30,230
+it is defined. A variable defined in the global scope is
+
+128
+00:10:30,230 --> 00:10:35,240
+called a global variable. When we call the function, we enter a new
+
+129
+00:10:35,240 --> 00:10:42,100
+scope or the scope of AddDC. We pass as an argument to the AddDC function,
+
+130
+00:10:42,100 --> 00:10:46,771
+in this case, AC. Within the scope of the function, the value
+
+131
+00:10:46,771 --> 00:10:52,640
+of x is set to ACDC. The function returns the value and is assigned
+
+132
+00:10:52,640 --> 00:10:56,810
+to z. Within the global scope, the value z is set
+
+133
+00:10:56,810 --> 00:11:01,690
+to ACDC After the value is returned, the scope of
+
+134
+00:11:01,690 --> 00:11:06,380
+the function is deleted. Local variables only exist within the scope
+
+135
+00:11:06,380 --> 00:11:10,230
+of a function. Consider the function thriller; the local
+
+136
+00:11:10,230 --> 00:11:15,400
+variable Date is set to 1982. When we call the function, we create a new
+
+137
+00:11:15,400 --> 00:11:19,241
+scope. Within that scope of the function, the value
+
+138
+00:11:19,241 --> 00:11:24,220
+of the date is set to 1982. The value of date does not exist within the
+
+139
+00:11:24,220 --> 00:11:28,640
+global scope. Variables inside the global scope can have
+
+140
+00:11:28,640 --> 00:11:33,270
+the same name as variables in the local scope with no conflict.
+
+141
+00:11:33,270 --> 00:11:38,290
+Consider the function thriller; the local variable Date is set to 1982.
+
+142
+00:11:38,290 --> 00:11:44,990
+The global variable date is set to 2017. When we call the function, we create a new
+
+143
+00:11:44,990 --> 00:11:48,260
+scope. Within that scope, the value of the date is
+
+144
+00:11:48,260 --> 00:11:53,160
+set to 1982. If we call the function, it returns the value
+
+145
+00:11:53,160 --> 00:11:57,240
+of Date in the local scope, in this case, 1982.
+
+146
+00:11:57,240 --> 00:12:02,040
+(click6) When we print in the global scope, we use the global variable value.
+
+147
+00:12:02,040 --> 00:12:11,330
+The global value of the variable is 2017. Therefore, the value is set to 2017.
+
+148
+00:12:11,330 --> 00:12:16,860
+If a variable is not defined within a function, Python will check the global scope.
+
+149
+00:12:16,860 --> 00:12:23,830
+Consider the function "AC-DC“. The function has the variable rating, with no value assigned.
+
+150
+00:12:23,830 --> 00:12:29,390
+If we define the variable rating in the global scope, then call the function, Python will
+
+151
+00:12:29,390 --> 00:12:34,930
+see there is no value for the variable Rating. As a result, python will leave the scope and
+
+152
+00:12:34,930 --> 00:12:40,910
+check if the variable Ratings exists in the global scope. It will use this value of Ratings
+
+153
+00:12:40,910 --> 00:12:49,300
+in the global scope within the scope of "AC-DC“. In the function, will print out a 9.
+
+154
+00:12:49,300 --> 00:12:54,840
+The value of z in the global scope will be 10, as we added one.
+
+155
+00:12:54,840 --> 00:12:59,540
+The value of rating will be unchanged within the global scope.
+
+156
+00:12:59,540 --> 00:13:05,130
+Consider the function Pink Floyd. If we define the variable Claimed Sales with
+
+157
+00:13:05,130 --> 00:13:09,600
+the keyword global, the variable will be a global variable.
+
+158
+00:13:09,600 --> 00:13:15,040
+We call the function Pink Floyd. The variable claimed sales is set to the string
+
+159
+00:13:15,040 --> 00:13:20,770
+“45 million” in the global scope. When we print the variable, we get a value
+
+160
+00:13:20,770 --> 00:13:25,680
+of “45 million.” There is a lot more you can do with functions.
+
+161
+00:13:25,680 --> 00:13:28,350
+Check out the lab for more examples.
+
