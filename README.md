@@ -1,6 +1,6 @@
 # Cognitive-Class-Labs-Python-german
 ## Grundlagen der Programmiersprache Python
-Deutsche Version der Jupyter Notebooks des IBM-Kurses Cognitiveclass PY0101EN für Schüler ab der Schulstufe 7
+Deutsche Version der Jupyter Notebooks des IBM-Kurses Cognitiveclass PY0101EN für Schüler ab der Schulstufe 7 zur Verwendung in zB Google Colabs oder einer Docker-Umgebung.
  
 Online-Version (englisch): https://cognitiveclass.ai/  (kostenlos Konto erstellen und anmelden)
 
