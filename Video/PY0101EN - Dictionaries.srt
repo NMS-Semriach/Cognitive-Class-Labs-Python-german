@@ -1,0 +1,127 @@
+0
+00:00:00,420 --> 00:00:05,840
+Wie wollen uns Dictionaries in Python ansehen. Dictionaries sind eine Art von Sammlung in Python.
+
+1
+00:00:05,840 --> 00:00:10,550
+Zur Erinnerung: eine Liste hat ganzzahlige Indizes. Diese sind wie Adressen.
+
+2
+00:00:10,550 --> 00:00:15,470
+Eine Liste hat auch Elemente. Ein Dictionary hat Schlüssel und Werte.
+
+3
+00:00:15,470 --> 00:00:19,800
+Schlüssel funktionieren wie ein Index, sie sind wie Adressen, aber sie müssen nicht unbedingt
+
+4
+00:00:19,800 --> 00:00:23,170
+Integer sein. Normalerweise sind es Buchstaben; die Werte sind
+
+5
+00:00:23,170 --> 00:00:26,720
+ähnlich wie die Elemente einer Liste und enthalten Informationen.
+
+6
+00:00:26,720 --> 00:00:31,880
+Um ein Dictionary zu erstellen, verwenden wir geschweifte Klammern. Die Schlüssel sind die ersten Elemente; sie müssen
+
+7
+00:00:31,880 --> 00:00:36,219
+unveränderlich und eindeutig sein. Auf jeden Schlüssel folgt ein Wert, der durch einen
+
+8
+00:00:36,219 --> 00:00:42,010
+Doppelpunkt getrennt ist. Die Werte können unveränderlich, veränderlich und doppelt sein.
+
+9
+00:00:42,010 --> 00:00:45,739
+Jedes Schlüssel- und Wertepaar wird durch ein Komma getrennt.
+
+10
+00:00:45,739 --> 00:00:50,719
+Betrachten Sie das folgende Beispiel eines Dictionary, der Albumtitel ist der Schlüssel
+
+11
+00:00:50,719 --> 00:00:54,359
+und Werte sind die Veröffentlichungsdaten. Wir können die Schlüssel gelb markieren und die Werte weiß
+
+12
+00:00:54,359 --> 00:00:58,269
+belassen. Es ist hilfreich, die Tabelle zur Visualisierung
+
+13
+00:00:58,269 --> 00:01:03,229
+eines Dictionarys zu verwenden, wobei die erste Spalte die Schlüssel und die zweite Spalte
+
+14
+00:01:03,229 --> 00:01:07,630
+die Werte darstellt. Wir können dem Dictionary noch ein paar weitere Beispiele hinzufügen.
+
+15
+00:01:07,630 --> 00:01:13,310
+Wir können das Dictionary auch einer Variablen zuweisen. Mit dem Schlüssel kann der Wert nachgeschlagen werden. Wir verwenden
+
+16
+00:01:13,310 --> 00:01:19,039
+eckige Klammern; das Argument ist der Schlüssel. Hier wird der Wert ausgegeben.
+
+17
+00:01:19,039 --> 00:01:23,909
+Mit dem Schlüssel "Back in Black" wird der Wert 1980 zurückgegeben.
+
+18
+00:01:23,909 --> 00:01:29,020
+Der Schlüssel "The Dark Side of the Moon" gibt uns den Wert 1973.
+
+19
+00:01:29,020 --> 00:01:34,760
+Die Verwendung des Schlüssels "The Bodyguard" gibt uns den Wert 1992, und so weiter.
+
+20
+00:01:34,760 --> 00:01:38,080
+Wir können einen neuen Eintrag in das Dictionary wie folgt hinzufügen.
+
+21
+00:01:38,080 --> 00:01:43,039
+Dies wird den Wert 2007 mit dem neuen Schlüssel „Graduation" einfügen
+
+22
+00:01:43,039 --> 00:01:48,090
+Wir können einen Eintrag wie folgt löschen. Dadurch wird der Schlüssel "Thriller" und sein
+
+23
+00:01:48,090 --> 00:01:51,049
+Wert beseitigt. Wir können überprüfen, ob ein Element im Dictionary
+
+24
+00:01:51,049 --> 00:01:55,790
+vorhanden ist, indem wir den Befehl in wie folgt verwenden. Der Befehl überprüft die Schlüssel. Wenn sie
+
+25
+00:01:55,790 --> 00:02:00,200
+im Dictionary stehen, wird True zurückgegeben. Wenn wir den gleichen Befehl mit einem Schlüssel versuchen, der
+
+26
+00:02:00,200 --> 00:02:04,960
+nicht im Dictionary steht, erhalten wir False. Wenn wir es mit einem anderen Schlüssel versuchen, der nicht
+
+27
+00:02:04,960 --> 00:02:09,679
+im Dictionary steht, erhalten wir False. Um alle Schlüssel in einem Dictionary zu sehen,
+
+28
+00:02:09,679 --> 00:02:14,620
+können wir die Methode keys verwenden. Die Ausgabe ist ein listenähnliches Objekt mit allen
+
+29
+00:02:14,620 --> 00:02:18,280
+Schlüsseln. Auf die gleiche Weise können wir die Werte
+
+30
+00:02:18,280 --> 00:02:22,810
+über die Methode values erhalten. In den Labs finden sich weitere Beispiele und Informationen
+
+31
+00:02:22,810 --> 00:02:23,780
+zu Dictionaries.
