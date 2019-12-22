@@ -1,0 +1,615 @@
+0
+00:00:00,229 --> 00:00:04,210
+In diesem Video sehen wir uns Bedingungen und Verzweigungen an.
+
+1
+00:00:04,210 --> 00:00:09,429
+Vergleichsoperationen vergleichen einen Wert oder Operanden und
+
+2
+00:00:09,429 --> 00:00:11,369
+erzeugen dann, basierend auf einer Bedingung, einen Booleschen Wert.
+
+3
+00:00:11,369 --> 00:00:15,139
+Sagen wir, wir weisen "a" den Wert 6 zu.
+
+4
+00:00:15,139 --> 00:00:20,470
+Wir können den aus zwei Gleichheitszeichen bestehenden Gleichheitsoperator verwenden, um zu bestimmen, ob zwei Werte
+
+5
+00:00:20,470 --> 00:00:25,010
+gleich sind, in diesem Fall, ob 7 gleich 6 ist.
+
+6
+00:00:25,010 --> 00:00:29,720
+Da in diesem Fall 6 ungleich 7 ist, ist das Ergebnis False.
+
+7
+00:00:29,720 --> 00:00:35,290
+Wenn wir den Gleichheitstest für den Wert 6 durchführen, wären die beiden Werte gleich.
+
+8
+00:00:35,290 --> 00:00:37,690
+Als Ergebnis bekämen wir True.
+
+9
+00:00:37,690 --> 00:00:40,780
+Betrachten Sie den folgenden Gleichheitsvergleich.
+
+10
+00:00:40,780 --> 00:00:45,660
+Ist der Wert des linken Operanden, in diesem Fall die Variable "i" größer als
+
+11
+00:00:45,660 --> 00:00:51,789
+der Wert des rechten Operanden, in diesem Fall 5, so wird die Bedingung True,
+
+12
+00:00:51,789 --> 00:00:52,789
+sonst erhalten wir False.
+
+13
+00:00:52,789 --> 00:00:55,730
+Wir betrachten einige Werte für "i" auf der linken Seite.
+
+14
+00:00:55,730 --> 00:01:00,699
+Die Werte größer als 5 sollen grün und der Rest rot sein.
+
+15
+00:01:00,699 --> 00:01:07,900
+Wenn wir "i" gleich 6 setzen, sehen wir, dass 6 größer als 5 ist, und als Ergebnis erhalten wir True.
+
+16
+00:01:07,900 --> 00:01:11,190
+Die gleichen Operationen können wir auch auf Floats anwenden.
+
+17
+00:01:11,190 --> 00:01:17,000
+Wenn wir den Operator wie folgt modifizieren, wenn der linke Operand "i" größer oder gleich
+
+18
+00:01:17,000 --> 00:01:23,190
+dem Wert des rechten Operanden ist, in diesem Fall 5, dann wird die Bedingung True.
+
+19
+00:01:23,190 --> 00:01:27,920
+In diesem Fall nehmen wir den Wert 5 in die Zahlenreihe auf und die Farbe wechselt
+
+20
+00:01:27,920 --> 00:01:29,330
+entsprechend auf grün.
+
+21
+00:01:29,330 --> 00:01:34,430
+Wenn wir den Wert von "i" gleich 5 setzen, wird der Operand True zurückgeben.
+
+22
+00:01:34,430 --> 00:01:40,310
+Wenn wir den Wert von "i" auf 2 setzen, würden wir False erhalten, weil 2 kleiner als 5 ist.
+
+23
+00:01:40,310 --> 00:01:44,990
+Wir können die Ungleichung ändern. Wenn der Wert des linken Operanden, in diesem Fall "i", kleiner
+
+24
+00:01:44,990 --> 00:01:51,650
+ist als der Wert des rechten Operanden, in diesem Fall 6, wird die Bedingung True.
+
+25
+00:01:51,650 --> 00:01:55,220
+Auch hier können wir das mit einer farbigen Zahlenlinie darstellen.
+
+26
+00:01:55,220 --> 00:02:00,220
+Die Bereiche, in denen die Ungleichheit True ist, werden grün und wo die Ungleichheit False ist
+
+27
+00:02:00,220 --> 00:02:01,500
+rot markiert.
+
+28
+00:02:01,500 --> 00:02:08,140
+Wenn der Wert für "i" auf 2 gesetzt wird, ist das Ergebnis True, da 2 kleiner als 6 ist.
+
+29
+00:02:08,139 --> 00:02:13,959
+Der Ungleichheitstest verwendet ein Rufzeichen vor dem Gleichheitszeichen. Wenn zwei Operanden
+
+30
+00:02:13,959 --> 00:02:17,519
+nicht gleich sind, dann wird die Bedingung True.
+
+31
+00:02:17,519 --> 00:02:19,400
+Wir können eine Zahlenreihe verwenden.
+
+32
+00:02:19,400 --> 00:02:24,519
+Wenn die Bedingung True ist, werden die entsprechenden Zahlen grün und
+
+33
+00:02:24,519 --> 00:02:26,799
+wenn die Bedingung falsch ist rot markiert.
+
+34
+00:02:26,799 --> 00:02:33,159
+Wenn wir "I" gleich 2 setzen, ist der Operator True, da 2 nicht gleich 6 ist.
+
+35
+00:02:33,159 --> 00:02:35,620
+Wir vergleichen auch Strings.
+
+36
+00:02:35,620 --> 00:02:41,800
+Vergleicht man "AC/DC" und "Michael Jackson" mit dem Gleichheitstest, so erhält man False, da
+
+37
+00:02:41,800 --> 00:02:44,049
+die Strings nicht gleich sind.
+
+38
+00:02:44,049 --> 00:02:48,819
+Mit dem Ungleichheitstest erhalten wir True, da die Strings unterschiedlich sind.
+
+39
+00:02:48,819 --> 00:02:51,200
+In den Labs finden sich weitere Beispiele.
+
+40
+00:02:51,200 --> 00:02:55,349
+Eine Verzweigung erlaubt es uns, verschiedene Anweisungen für unterschiedliche Eingaben auszuführen.
+
+41
+00:02:55,349 --> 00:02:59,099
+Es ist hilfreich, sich eine „If-Anweisung" als einen abgeschlossenen Raum vorzustellen:
+
+42
+00:02:59,099 --> 00:03:04,579
+Wenn die Aussage True ist, können Sie den Raum betreten, und Ihr Programm kann eine vordefinierte
+
+43
+00:03:04,579 --> 00:03:05,700
+Aufgabe ausführen.
+
+44
+00:03:05,700 --> 00:03:09,299
+Wenn die Aussage False ist, überspringt Ihr Programm die Aufgabe.
+
+45
+00:03:09,299 --> 00:03:15,590
+Betrachten Sie zum Beispiel das blaue Rechteck, das ein ACDC-Konzert darstellt.
+
+46
+00:03:15,590 --> 00:03:20,579
+Wenn die Person 18 Jahre oder älter ist, kann sie zum ACDC-Konzert.
+
+47
+00:03:20,579 --> 00:03:24,780
+Wenn sie unter 18 Jahre alt sind, darf sie nicht zum Konzert.
+
+48
+00:03:24,780 --> 00:03:30,209
+Personen kommen zum Konzert, ihr Alter ist 17 Jahre, deshalb wird ihnen kein
+
+49
+00:03:30,209 --> 00:03:33,799
+Zugang zum Konzert gewährt, und sie müssen weitergehen.
+
+50
+00:03:33,799 --> 00:03:39,090
+Wenn jemand 19 Jahre alt ist, ist die Bedingung erfüllt, er darf zum Konzert; danach
+
+51
+00:03:39,090 --> 00:03:40,359
+geht‘s weiter.
+
+52
+00:03:40,359 --> 00:03:44,420
+Das ist die Syntax der if-Anweisung aus unserem vorherigen Beispiel.
+
+53
+00:03:44,420 --> 00:03:48,650
+Wir haben eine if-Anweisung; wir haben einen Ausdruck, der wahr oder
+
+54
+00:03:48,650 --> 00:03:51,719
+falsch sein kann, die Klammern sind nicht notwendig.
+
+55
+00:03:51,719 --> 00:03:53,219
+Wir haben einen Doppelpunkt.
+
+56
+00:03:53,219 --> 00:03:57,860
+Innerhalb eines Einzugs haben wir den Ausdruck, der ausgeführt wird, wenn die Bedingung True ist.
+
+57
+00:03:57,860 --> 00:04:02,669
+Die Aussagen nach der if-Anweisung laufen unabhängig davon, ob die Bedingung True oder
+
+58
+00:04:02,669 --> 00:04:03,669
+False ist.
+
+59
+00:04:03,669 --> 00:04:09,080
+Für den Fall, dass das Alter 17 ist, setzen wir den Wert der Variablen age auf 17.
+
+60
+00:04:09,080 --> 00:04:14,590
+Wir prüfen die if-Anweisung; die Aussage ist False, deshalb wird das Programm die Anweisung nicht ausführen
+
+61
+00:04:14,590 --> 00:04:17,310
+ und "you will enter" nicht ausgeben.
+
+62
+00:04:17,310 --> 00:04:20,820
+In diesem Fall gibt es einfach „move on“ aus
+
+63
+00:04:20,820 --> 00:04:25,810
+Für den Fall, dass das Alter 19 ist, setzen wir den Wert der Variablen age auf 19.
+
+64
+00:04:25,810 --> 00:04:27,540
+Wir überprüfen die if-Anweisung.
+
+65
+00:04:27,540 --> 00:04:32,210
+Die Anweisung ist True, daher wird das Programm die Anweisung ausführen und "you
+
+66
+00:04:32,210 --> 00:04:33,210
+will enter" ausgeben.
+
+67
+00:04:33,210 --> 00:04:35,880
+Danach wird es noch “move on” ausgeben
+
+68
+00:04:35,880 --> 00:04:40,980
+Die "else-Anweisung" führt einen anderen Codeblock aus, wenn die gleiche Bedingung False ist.
+
+69
+00:04:40,980 --> 00:04:48,120
+Lassen Sie uns noch einmal die ACDC-Konzert-Analogie verwenden; wenn der Benutzer 17 ist, kann er nicht zum ACDC-Konzert
+
+70
+00:04:48,120 --> 00:04:53,070
+, aber er kann zum Meat Loaf-Konzert, das durch das violette Quadrat dargestellt wird.
+
+71
+00:04:53,070 --> 00:04:56,220
+Wenn jemand 19 Jahre alt ist, ist die Bedingung True.
+
+72
+00:04:56,220 --> 00:05:00,870
+Er kann das ACDC-Konzert betreten, danach wie bisher weiter gehen.
+
+73
+00:05:00,870 --> 00:05:03,650
+Die Syntax der else-Anweisung ist ähnlich.
+
+74
+00:05:03,650 --> 00:05:06,090
+Wir fügen einfach eine else-Anweisung hinzu.
+
+75
+00:05:06,090 --> 00:05:09,410
+Dann fügen wir den Ausdruck, den wir ausführen möchten, mit einer Einrückung hinzu.
+
+76
+00:05:09,410 --> 00:05:14,750
+Für den Fall, dass das Alter 17 ist, setzen wir den Wert der Variablen age auf 17.
+
+77
+00:05:14,750 --> 00:05:16,630
+Wir überprüfen die if-Anweisung.
+
+78
+00:05:16,630 --> 00:05:21,270
+Die Aussage ist falsch, deshalb gehen wir zur else-Anweisung.
+
+79
+00:05:21,270 --> 00:05:23,870
+Wir führen die eingerückten Anweisungen aus.
+
+80
+00:05:23,870 --> 00:05:27,640
+Das entspricht einem Besucher des Meat Loaf-Konzerts.
+
+81
+00:05:27,640 --> 00:05:30,390
+Das Programm läuft dann weiter.
+
+82
+00:05:30,390 --> 00:05:36,550
+Für den Fall, dass das Alter 19 ist, setzen wir den Wert der Variablen age auf 19.
+
+83
+00:05:36,550 --> 00:05:38,470
+Wir überprüfen die if-Anweisung.
+
+84
+00:05:38,470 --> 00:05:42,830
+Die Anweisung ist True, daher wird das Programm die Anweisung ausführen und "you
+
+85
+00:05:42,830 --> 00:05:43,830
+will enter" ausgeben.
+
+86
+00:05:43,830 --> 00:05:48,781
+Das Programm überspringt die Ausdrücke in der else-Anweisung und fährt mit der Ausführung
+
+87
+00:05:48,781 --> 00:05:50,170
+der restlichen Ausdrücke fort.
+
+88
+00:05:50,170 --> 00:05:56,200
+Die elif-Aussage, kurz für "else if", erlaubt uns, zusätzliche Bedingungen zu prüfen,
+
+89
+00:05:56,200 --> 00:05:58,600
+wenn die Ausgangsbedingung falsch ist.
+
+90
+00:05:58,600 --> 00:06:02,660
+Wenn die Bedingung True ist, werden die alternativen Ausdrücke ausgeführt.
+
+91
+00:06:02,660 --> 00:06:08,030
+Betrachten Sie das Konzertbeispiel, wenn jemand 18 Jahre alt ist, wird er zum Pink Floyd Konzert gehen,
+
+92
+00:06:08,030 --> 00:06:11,720
+anstatt das ACDC oder Meat Loaf Konzert zu besuchen.
+
+93
+00:06:11,720 --> 00:06:17,340
+Alle, die 18 Jahre alt sind, bekommen Zutritt, da sie nicht älter als 19 Jahre sind.
+
+94
+00:06:17,340 --> 00:06:22,300
+Sie können ACDC nicht sehen, aber da sie 18 Jahre alt sind, besuchen sie Pink Floyd.
+
+95
+00:06:22,300 --> 00:06:27,960
+Nachdem sie Pink Floyd gesehen haben, ziehen sie weiter.
+
+96
+00:06:27,960 --> 00:06:31,120
+Die Syntax der "elseif-Anweisung" ist ähnlich.
+
+97
+00:06:31,120 --> 00:06:34,680
+Wir fügen einfach die Anweisung elseif mit einer Bedingung hinzu.
+
+98
+00:06:34,680 --> 00:06:39,750
+Dann fügen wir den Ausdruck, den wir ausführen möchten, wenn die Aussage wahr ist, mit einem
+
+99
+00:06:39,750 --> 00:06:40,750
+Einrückung hinzu.
+
+100
+00:06:40,750 --> 00:06:42,710
+Veranschaulichen wir den Code auf der linken Seite.
+
+101
+00:06:42,710 --> 00:06:44,520
+Eine 18-Jährige tritt ein.
+
+102
+00:06:44,520 --> 00:06:49,670
+Sie ist nicht älter als 18 Jahre, daher ist die Bedingung False, also wird die Bedingung
+
+103
+00:06:49,670 --> 00:06:51,510
+für elseif überprüft.
+
+104
+00:06:51,510 --> 00:06:56,760
+Die Bedingung ist True, also würden wir “go see Pink Floyd“ ausgeben.
+
+105
+00:06:56,760 --> 00:06:59,520
+Dann würden wir weitermachen, wie bisher.
+
+106
+00:06:59,520 --> 00:07:04,400
+Wenn die Variable age 17 wäre, würde die Aussage "go see Meat Loaf" ausgegeben.
+
+107
+00:07:04,400 --> 00:07:09,740
+Ähnlich würde bei einem Alter von über 18 Jahren die Aussage “you can enter” ausgegeben.
+
+108
+00:07:09,740 --> 00:07:11,620
+In den Labs finden sich weitere Beispiele.
+
+109
+00:07:11,620 --> 00:07:15,310
+Schauen wir uns nun die Logik-Operatoren an.
+
+110
+00:07:15,310 --> 00:07:19,970
+Logische Operationen nehmen boolesche Werte und erzeugen daraus andere boolesche Werte.
+
+111
+00:07:19,970 --> 00:07:23,070
+Die erste Operation ist der not Operator.
+
+112
+00:07:23,070 --> 00:07:26,480
+Wenn die Eingabe True ist, ist das Ergebnis False.
+
+113
+00:07:26,480 --> 00:07:32,080
+Und das Ergebnis ist True, wenn die Eingabe False ist.
+
+114
+00:07:32,080 --> 00:07:34,960
+A und B sollen boolesche Variablen darstellen.
+
+115
+00:07:34,960 --> 00:07:40,640
+Der "or"-Operator nimmt die beiden Werte und erzeugt einen neuen booleschen Wert.
+
+116
+00:07:40,640 --> 00:07:44,090
+Mit dieser Tabelle können wir die verschiedenen Werte darstellen.
+
+117
+00:07:44,090 --> 00:07:47,670
+Die erste Spalte stellt die möglichen Werte von A dar.
+
+118
+00:07:47,670 --> 00:07:51,230
+Die zweite Spalte stellt die möglichen Werte von B dar.
+
+119
+00:07:51,230 --> 00:07:56,760
+Die letzte Spalte stellt das Ergebnis der Anwendung der "or-Operation" dar
+
+120
+00:07:56,760 --> 00:08:03,110
+Wir sehen, dass der "or-Operator" nur dann ein false erzeugt, wenn alle booleschen Werte falsch sind.
+
+121
+00:08:03,110 --> 00:08:09,120
+Die folgenden Zeilen des Codes werden ausgegeben: “This album was made in the 70&#39;s or 90&#39;s”
+
+122
+00:08:09,120 --> 00:08:12,650
+, wenn die Variable album_year nicht in die 80er Jahre fällt.
+
+123
+00:08:12,650 --> 00:08:15,610
+Schauen wir, was passiert, wenn wir album_year auf 1990 setzen.
+
+124
+00:08:15,610 --> 00:08:20,620
+Die farbige Zahlengerade ist grün, wenn die Bedingung wahr ist und rot, wenn die Bedingung falsch
+
+125
+00:08:20,620 --> 00:08:21,640
+ist.
+
+126
+00:08:21,640 --> 00:08:23,930
+In diesem Fall ist die Bedingung True.
+
+127
+00:08:23,930 --> 00:08:30,260
+Wenn wir die zweite Bedingung untersuchen, sehen wir, dass 1990 größer ist als 1989, also ist die Bedingung
+
+128
+00:08:30,260 --> 00:08:31,680
+ebenfalls True.
+
+129
+00:08:31,680 --> 00:08:35,639
+Wir können dies durch die Untersuchung der entsprechenden zweiten Zahlenreihe überprüfen.
+
+130
+00:08:35,639 --> 00:08:40,099
+In der letzten Zahlenreihe zeigt der grüne Bereich an, wo der Bereich True ist.
+
+131
+00:08:40,099 --> 00:08:43,839
+Dieser Bereich entspricht dem Bereich, in dem mindestens eine Aussage zutrifft.
+
+132
+00:08:43,839 --> 00:08:47,029
+Wir sehen, dass das Jahr 1990 in diesen Bereich fällt.
+
+133
+00:08:47,029 --> 00:08:49,190
+Deshalb führen wir die Anweisung aus.
+
+134
+00:08:49,190 --> 00:08:54,870
+Wenn A und B boolesche Variablen darstellen, nimmt der „and Operator" die beiden Werte
+
+135
+00:08:54,870 --> 00:08:57,579
+und erzeugt einen neuen booleschen Wert.
+
+136
+00:08:57,579 --> 00:09:00,920
+Mit dieser Tabelle können wir die verschiedenen Werte darstellen.
+
+137
+00:09:00,920 --> 00:09:04,069
+Die erste Spalte stellt die möglichen Werte von A dar.
+
+138
+00:09:04,069 --> 00:09:07,839
+Die zweite Spalte stellt die möglichen Werte von B dar.
+
+139
+00:09:07,839 --> 00:09:13,230
+Die letzte Spalte stellt das Ergebnis der Anwendung der „and-Operation" dar
+
+140
+00:09:13,230 --> 00:09:18,910
+Wir sehen, dass der „and-Operator" nur dann True erzeugt, wenn alle booleschen Werte True sind.
+
+141
+00:09:18,910 --> 00:09:23,650
+Die folgenden Zeilen des Codes werden ausgegeben: “This album was made in the 80’s”, wenn
+
+142
+00:09:23,650 --> 00:09:27,680
+die Variable album_year zwischen 1980 und 1989 liegt.
+
+143
+00:09:27,680 --> 00:09:32,139
+Schauen wir, was passiert, wenn wir album_year auf 1983 setzen.
+
+144
+00:09:32,139 --> 00:09:37,220
+Wie zuvor können wir mit der farbigen Zahlengeraden prüfen, wo die Bedingung erfüllt ist.
+
+145
+00:09:37,220 --> 00:09:43,110
+In diesem Fall ist 1983 größer als 1980, also ist die Bedingung True.
+
+146
+00:09:43,110 --> 00:09:49,019
+Wenn wir die zweite Bedingung untersuchen, sehen wir, dass 1990 größer ist als 1983, also ist die Bedingung
+
+147
+00:09:49,019 --> 00:09:50,589
+ebenfalls True.
+
+148
+00:09:50,589 --> 00:09:54,710
+Wir können dies durch die Untersuchung der entsprechenden zweiten Zahlenreihe überprüfen.
+
+149
+00:09:54,710 --> 00:09:59,940
+In der letzten Zahlenreihe zeigt der grüne Bereich an, wo der Bereich True ist.
+
+150
+00:09:59,940 --> 00:10:04,249
+Und wieder entspricht diese Region dem Bereich, in dem beide Aussagen zutreffen.
+
+151
+00:10:04,249 --> 00:10:07,660
+Wir sehen, dass 1983 in diesen Bereich fällt.
+
+152
+00:10:07,660 --> 00:10:09,600
+Deshalb führen wir die Anweisung aus.
+
+153
+00:10:09,600 --> 00:10:12,889
+Eine Verzweigung erlaubt es uns, verschiedene Anweisungen für unterschiedliche Eingaben auszuführen.
