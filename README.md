@@ -1,7 +1,7 @@
 # Cognitive-Class-Labs-Python-german
 ## Grundlagen der Programmiersprache Python
 Deutsche Version der Jupyter Notebooks des IBM-Kurses Cognitiveclass PY0101EN für Schüler ab der Schulstufe 7 zur Verwendung in zB Google Colabs oder einer Binder-Umgebung.
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/matheharry/Cognitive-Class-Labs-Python-german/master) 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/matheharry/Cognitive-Class-Labs-Python-german/binder) 
 
 Online-Version (englisch): https://cognitiveclass.ai/  (kostenlos Konto erstellen und anmelden)
 
